@@ -15,3 +15,15 @@ for i in range(n):
     if min>tableau[i] :
         min=tableau[i]
 print(f"le max est : {max}, le min est : {min}")
+#le moyenne
+s=0
+for i in range(n):
+   s+=tableau[i]
+m=s/n
+print(f"la moyenne est : {m}")
+#le nombre des eleve qui valide (note>moyenne)
+k=0
+for i in range(n):
+    if tableau[i]>m :
+        k++
+print(f"le nombre des eleve qui passe est : {k}")
