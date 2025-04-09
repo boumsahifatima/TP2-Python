@@ -6,7 +6,7 @@ for i in range(n):
     tableau.append(entier)
 for i in range(n):
     print(f'la note de l eleve {i+1} est : {tableau[i]}')
-#le max et le min 
+#cherchons le max et le min 
 max=tableau[0]
 min=tableau[0]
 for i in range(n):
@@ -15,13 +15,13 @@ for i in range(n):
     if min>tableau[i] :
         min=tableau[i]
 print(f"le max est : {max}, le min est : {min}")
-#le moyenne
+#calculons le moyenne
 s=0
 for i in range(n):
    s+=tableau[i]
 m=s/n
 print(f"la moyenne est : {m}")
-#le nombre des eleve qui valide (note>moyenne)
+#le nombre des eleves qui valide (note>moyenne)
 k=0
 for i in range(n):
     if tableau[i]>m :
