@@ -1,3 +1,4 @@
+# calcule la somme 
 def somme(x):
     s=0
     for i in range (1,x+1):
